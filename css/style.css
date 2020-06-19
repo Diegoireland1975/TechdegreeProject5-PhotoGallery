@@ -4,10 +4,14 @@
   padding: 0;
 }
 
-.inner-wrapper {
-  width: 90%;
-  box-shadow: 5px 5px 5px #333;
+.gallery {
+  margin: 0 auto;
 }
+
+.inner-wrapper {
+  box-shadow: 15px 5px 5px #333;
+}
+
 .inner-wrapper .thumb {
   padding: 2rem;
   width: 20%;
