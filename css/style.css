@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .gallery {
@@ -14,5 +15,12 @@
 
 .inner-wrapper .thumb {
   padding: 2rem;
-  width: 20%;
+  min-width: 20%;
+  transition: translate, brightness, 0.3s ease-in-out;
+  filter: brightness(100%);
+}
+
+.inner-wrapper .thumb:hover {
+  transform: translate(5px, -5px);
+  filter: brightness(75%);
 }
