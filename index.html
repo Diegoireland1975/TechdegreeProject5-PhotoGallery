@@ -106,5 +106,19 @@
     </main>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
+    <script>
+      $("[data-fancybox]").fancybox({
+        loop: true,
+        buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          "download",
+          "thumbs",
+          "close",
+        ],
+      });
+    </script>
   </body>
 </html>
