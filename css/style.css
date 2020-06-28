@@ -13,7 +13,6 @@ h1 {
   font-weight: 400;
   color: #fff;
   padding: 1rem;
-
   background: linear-gradient(to left, rgb(121, 188, 233), rgb(21, 21, 194));
   transition: color 0.5s ease-in-out;
 }
