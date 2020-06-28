@@ -7,8 +7,9 @@
 
 h1 {
   font-size: 2rem;
-  color: lightblue;
+  color: #fff;
   padding: 1rem;
+  background: linear-gradient(to left, rgb(121, 188, 233), rgb(21, 21, 194));
 }
 
 .input {
