@@ -1,5 +1,5 @@
 let $search = $("#search");
-let $imgs = $("img");
+let $imgs = $("a");
 
 $search.keyup((event) => {
   let value = $search.val().toLowerCase();
